@@ -5,34 +5,35 @@ sections:
     type: section_content
     bg: gray
     image: images/feature1.png
-    title: The Best Features of Your Services
+    title: The Best Features of Our Services
     content: >-
-      Nam pulvinar ante eu ultricies volutpat. Sed nulla nibh, dapibus sit amet
-      cursus quis, fringilla nec sapien. Vestibulum imperdiet nunc bibendum
-      consectetur lobortis.
+      ##### People
 
+      We are a set of determined individuals. Our team is carefully curated, and we are proud of our team.
 
-      * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      ##### Flexibility
 
-      * Ut eu nunc at diam fringilla fringilla eu ut massa.
+      Though we prefer agile, our experts can align themselves to whatever process works best for you.
 
-      * Phasellus ut enim non lorem venenatis rutrum.
+      ##### Transparency
 
+      From architecture to pull requests, from impact analysis to implementation details, we share everything with you.
 
-      Mollis eget congue quis, venenatis sit amet metus. Etiam sit amet tortor
-      sed justo tempor condimentum.
+      ##### Quality
+
+      Allow us to prepare some solid test cases around the code, and we'll submit the most robust piece. Don't have enough time for writing test cases? No worries, we'll document the test cases anyway.
     actions:
-      - label: Free Trial
-        url: /signup
-      - label: View Demo
-        url: '#'
+      # - label: Hire Us
+      #   url: /hire
+      # - label: View Demo
+        # url: '#'
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call to Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Get In Touch. Let's Meet Over Coffee.
+    subtitle: Allow us to showcase us to you.
     actions:
-      - label: Get Started
-        url: '#'
+      - label: Hire Us
+        url: '/hire'
 menus:
   main:
     weight: 2

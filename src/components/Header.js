@@ -1,6 +1,7 @@
 import React from 'react';
 import _ from 'lodash';
 
+import Logo from './Logo';
 import {Link, safePrefix} from '../utils';
 
 export default class Header extends React.Component {
@@ -11,11 +12,11 @@ export default class Header extends React.Component {
                 <div className="site-header-inside">
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img') && 
-                    <p className="site-logo">
+                    <div className="site-logo">
                       <Link to={safePrefix('/')}>
-                        <img src={safePrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.logo_img'))} alt="Logo" />
+                        <Logo />
                       </Link>
-                    </p>
+                    </div>
                     }
                     {((_.get(this.props, 'pageContext.frontmatter.template') === 'landing') || (_.get(this.props, 'pageContext.frontmatter.template') === 'blog')) ? 
                     <h1 className="site-title"><Link to={safePrefix('/')}>{_.get(this.props, 'pageContext.site.siteMetadata.header.title')}</Link></h1>

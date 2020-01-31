@@ -9,7 +9,7 @@ export default class Footer extends React.Component {
     render() {
         return (
             <footer id="colophon" className="site-footer">
-              <div className="footer-top outer">
+              {/* <div className="footer-top outer">
                 <div className="inner">
                   <div className="footer-widgets">
                     <div className="widget footer-branding">
@@ -63,7 +63,7 @@ export default class Footer extends React.Component {
                     }
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="site-info outer">
                 <div className="inner">
                   {htmlToReact(_.get(this.props, 'pageContext.site.siteMetadata.footer.content'))}

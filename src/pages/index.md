@@ -4,83 +4,75 @@ sections:
   - section_id: hero
     type: section_hero
     image: images/hero.png
-    title: This Is A Big Hero Headline
+    title: Accelerate Your Business
     content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site. 
+      Boost the development of your software. Focus on the core of your business, we guarantee quality, speed and transparency. Know more about us.
     actions:
-      - label: Learn More
+      - label: Know More
         url: /features
   - section_id: features
     type: section_features
     bg: gray
-    title: Features
+    title: We Guarantee An Amazing Experience
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      NFRs are not value addition but a core value.
     featureslist:
-      - title: The Best Feature of Your Services
+      - title: Designing For The Mobile
         image: images/feature1.png
         content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
+          Mobile applications are incomplete with micro-interactions. Collaborate with us to create the best experience for the user. We like our apps to be functionally accurate and aesthetically sharp.
         actions:
-          - label: Learn More
+          - label: Know More
             url: /features
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        actions:
-          - label: Learn More
-            url: /features
-      - title: Cool Feature of Your Services
+      - title: Design System For Your Webapp
         image: images/feature3.png
         content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
+          We don't just create web applications, we make it extensive by developing a design system. Creating standalone, testable and well documented components is our speciality.
         actions:
-          - label: Learn More
+          - label: Know More
             url: /features
-  - section_id: reviews
-    type: section_reviews
-    bg: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales. 
-    reviews:
-      - author: John Doe
-        avatar: images/review1.jpg
+      - title: Making Data Engineering Look Easy
+        image: images/feature2.png
         content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Jane Roe
-        avatar: images/review2.jpg
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Richard Roe
-        avatar: images/review3.jpg
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+          We don't just create beautiful client facing apps, we lay strong foundations in term of data engineering and architecture.
+        actions:
+          - label: Know More
+            url: /features
+  # - section_id: reviews
+  #   type: section_reviews
+  #   bg: white
+  #   title: Testimonials
+  #   subtitle: >-
+  #     Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
+  #     semper libero id sodales. 
+  #   reviews:
+  #     - author: John Doe
+  #       avatar: images/review1.jpg
+  #       content: >-
+  #         Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
+  #         nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
+  #     - author: Jane Roe
+  #       avatar: images/review2.jpg
+  #       content: >-
+  #         Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
+  #         convallis, interdum ligula vel, pretium diam. Integer commodo sem at
+  #         dui sollicitudin, vel posuere justo laoreet.
+  #     - author: Richard Roe
+  #       avatar: images/review3.jpg
+  #       content: >-
+  #         Integer consectetur purus neque, ac porttitor enim convallis vitae.
+  #         Interdum et malesuada fames ac ante ipsum primis in faucibus.
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
+    title: Get In Touch. Let's Meet Over Coffee.
+    subtitle: Allow us to showcase us to you.
     actions:
-      - label: Get Started
-        url: /signup
-  - section_id: recent-posts
-    type: section_posts
-    bg: gray
-    title: Latest Posts
+      - label: Hire Us
+        url: '/hire'
+  # - section_id: recent-posts
+  #   type: section_posts
+  #   bg: gray
+  #   title: Latest Posts
 menus:
   main:
     weight: 1
