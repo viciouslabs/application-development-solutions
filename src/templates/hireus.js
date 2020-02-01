@@ -12,6 +12,7 @@ import requirementImg from '../../static/images/requirement.png';
 import questionnaireImg from '../../static/images/questionnaire.jpg';
 import proposalImg from '../../static/images/proposal.jpg';
 import implementationImg from '../../static/images/implementation.jpg';
+import celebrationImg from '../../static/images/celebration.jpg';
 
 /**
  * TODO: Move all the hard coding out in the md file of hireus.
@@ -75,6 +76,18 @@ export default class Page extends React.Component {
                 </Column>
                 <Column width="20%" float="center" type="auxiliary">
                   <div className="step-text">4</div>
+                </Column>
+              </div>
+              <div className="row">
+                <Column width="30%" float="left">
+                  <Img img={celebrationImg} height="90%" width="90%" />
+                </Column>
+                <Column width="50%" float="center">
+                  <h4>The Celebration</h4>
+                  <div>Cheers to the achievement and many more to come. A quick retrospective shall help us improve.</div>
+                </Column>
+                <Column width="20%" float="right" type="auxiliary">
+                  <div className="step-text">5</div>
                 </Column>
               </div>
               <br />
