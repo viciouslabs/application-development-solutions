@@ -8,11 +8,11 @@ import { safePrefix, htmlToReact } from '../utils';
 
 import Column from '../components/process/Column';
 import Img from '../components/process/Img';
-import requirementImg from '../../static/images/requirement.png';
-import questionnaireImg from '../../static/images/questionnaire.jpg';
-import proposalImg from '../../static/images/proposal.jpg';
-import implementationImg from '../../static/images/implementation.jpg';
-import celebrationImg from '../../static/images/celebration.jpg';
+import requirementImg from '../../static/images/requirement.webp';
+import questionnaireImg from '../../static/images/questionnaire.webp';
+import proposalImg from '../../static/images/proposal.webp';
+import implementationImg from '../../static/images/implementation.webp';
+import celebrationImg from '../../static/images/celebration.webp';
 
 /**
  * TODO: Move all the hard coding out in the md file of hireus.

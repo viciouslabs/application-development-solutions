@@ -13,7 +13,7 @@ for (var i = 0; i < menuToggle.length; i++) {
   menuToggle[i].addEventListener('click', function(e){
     document.body.classList.toggle('menu--opened');
     e.preventDefault();
-  },false);
+  },true);
 }
 
 document.body.classList.remove('menu--opened');
