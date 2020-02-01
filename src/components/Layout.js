@@ -19,13 +19,14 @@ export default function Body(props) {
     const metaDescription = _.get(props, 'pageContext.frontmatter.seo.description');
 
     if (!lazyEventHandled) {
-        document.addEventListener('lazybeforeunveil', function(e){
-            console.log('333333333333333333');
-            var bg = e.target.getAttribute('data-bg');
-            if(bg){
-                e.target.style.backgroundImage = 'url(' + bg + ')';
-            }
-        });
+        if (typeof window !== 'undefined') {
+            document.addEventListener('lazybeforeunveil', function(e){
+                var bg = e.target.getAttribute('data-bg');
+                if(bg){
+                    e.target.style.backgroundImage = 'url(' + bg + ')';
+                }
+            });
+        }
         lazyEventHandled = true;
     }
 
