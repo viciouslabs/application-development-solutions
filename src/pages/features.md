@@ -4,7 +4,7 @@ sections:
   - section_id: features
     type: section_content
     bg: gray
-    image: images/feature1.png
+    image: images/feature1.webp
     title: The Best Features of Our Services
     content: >-
       ##### People
