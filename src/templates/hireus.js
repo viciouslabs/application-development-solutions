@@ -110,6 +110,10 @@ export default class Page extends React.Component {
                   <FontAwesomeIcon icon={faPhone} />&nbsp;&nbsp;
                   <strong><a href={"tel:" + phone}>{phone}</a></strong>
                 </div>
+                <br /><br /><br /><br />
+                <div class="post-footnote">
+                Thanks to <a href="https://www.freepik.com/search?page=1&sort=popular&type=vector">freepik</a> for the cool illustrations.
+                </div>
               </div>
             </article>
           </div>
