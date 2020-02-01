@@ -43,6 +43,14 @@ module.exports = {
             options: {
               trackingId: "UA-157497182-1",
             },
-          }
+        },
+        {
+            resolve: "gatsby-plugin-hubspot",
+            options: {
+                trackingCode: "7089893",
+                respectDNT: false,
+                productionOnly: false,
+            }
+        }
     ]
 };
