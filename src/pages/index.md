@@ -3,7 +3,9 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.webp
+    image:
+      480w: images/hero.m.webp
+      800w: images/hero.webp
     title: Accelerate Your Business
     content: >-
       Boost the development of your software. Focus on the core of your business, we guarantee quality, speed and transparency. Know more about us.
@@ -18,21 +20,27 @@ sections:
       NFRs are not value addition but a core value.
     featureslist:
       - title: Designing For The Mobile
-        image: images/feature1.webp
+        image:
+          480w: images/feature1.m.webp
+          800w: images/feature1.webp
         content: >-
           Mobile applications are incomplete with micro-interactions. Collaborate with us to create the best experience for the user. We like our apps to be functionally accurate and aesthetically sharp.
         actions:
           - label: Know More
             url: /features
       - title: Design System For Your Webapp
-        image: images/feature3.webp
+        image:
+          480w: images/feature3.m.webp
+          800w: images/feature3.webp
         content: >-
           We don't just create web applications, we make it extensive by developing a design system. Creating standalone, testable and well documented components is our speciality.
         actions:
           - label: Know More
             url: /features
       - title: Making Data Engineering Look Easy
-        image: images/feature2.webp
+        image:
+          480w: images/feature2.m.webp
+          800w: images/feature2.webp
         content: >-
           We don't just create beautiful client facing apps, we lay strong foundations in term of data engineering and architecture.
         actions:
