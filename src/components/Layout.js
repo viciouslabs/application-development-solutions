@@ -22,8 +22,8 @@ export default function Body(props) {
                 <meta name="viewport" content="width=device-width" />
                 <meta name="google" content="notranslate" />
                 {MetaDescription(metaDescription)}
-                <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" rel="stylesheet" />
-                <link rel="stylesheet" href={safePrefix('assets/css/main.css')} />
+                <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" crossorigin />
+                <link rel="preload" href={safePrefix('assets/css/main.css')} as="stylesheet" />
                 <link rel="shortcut icon" href={_.get(props, 'pageContext.site.siteMetadata.favicon')} type="image/x-icon" />
                 <link rel="icon" href={_.get(props, 'pageContext.site.siteMetadata.favicon')} type="image/x-icon" />
             </Helmet>
