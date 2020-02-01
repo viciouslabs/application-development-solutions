@@ -25,6 +25,7 @@ export default class Page extends React.Component {
     const postImage = safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path.800w'));
     const postImageMobile = safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path.480w'));
     const postImageSrcSet = `${postImageMobile} 480w, ${postImage} 800w`;
+
     return (
       <Layout {...this.props}> 
         <div className="outer">
@@ -35,7 +36,7 @@ export default class Page extends React.Component {
               </header>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img img={requirementImg} height="90%" width="90%" />
+                  <Img data-bg={requirementImg} height="90%" width="90%" className="lazyload" />
                 </Column>
                 <Column width="50%" float="center">
                   <h4>Requirement Clarification</h4>
@@ -47,7 +48,7 @@ export default class Page extends React.Component {
               </div>
               <div className="row green">
                 <Column width="30%" float="right">
-                  <Img img={questionnaireImg} height="90%" width="90%" />
+                  <Img data-bg={questionnaireImg} height="90%" width="90%" className="lazyload" />
                 </Column>
                 <Column width="50%" float="left" className="padl30">
                   <h4>The Questionnaire</h4>
@@ -59,7 +60,7 @@ export default class Page extends React.Component {
               </div>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img img={proposalImg} />
+                  <Img data-bg={proposalImg} className="lazyload" />
                 </Column>
                 <Column width="20%" float="center" type="auxiliary">
                   <div className="step-text-center">3</div>
@@ -71,7 +72,7 @@ export default class Page extends React.Component {
               </div>
               <div className="row green">
                 <Column width="30%" float="right">
-                  <Img img={implementationImg} />
+                  <Img data-bg={implementationImg} className="lazyload" />
                 </Column>
                 <Column width="50%" float="left" className="padl30">
                   <h4>The Implementation</h4>
@@ -83,7 +84,7 @@ export default class Page extends React.Component {
               </div>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img img={celebrationImg} height="90%" width="90%" />
+                  <Img data-bg={celebrationImg} height="90%" width="90%" className="lazyload" />
                 </Column>
                 <Column width="50%" float="center">
                   <h4>The Celebration</h4>
@@ -97,10 +98,11 @@ export default class Page extends React.Component {
               {_.get(this.props, 'pageContext.frontmatter.img_path') &&
                 <div className="post-thumbnail">
                   <img
-                    srcset={postImageSrcSet}
-                    sizes="(max-width: 600px) 480px, 800px"
-                    src={postImage}
+                    data-srcset={postImageSrcSet}
+                    data-sizes="(max-width: 600px) 480px, 800px"
+                    data-src={postImage}
                     alt={_.get(this.props, 'pageContext.frontmatter.title')}
+                    className="lazyload"
                   />
                 </div>
               }

@@ -15,10 +15,11 @@ export default class SectionHero extends React.Component {
             {_.get(this.props, 'section.image') &&
               <div className="cell block-preview">
                 <img
-                  srcSet={heroImageSrcSet}
-                  sizes="(max-width: 600px) 480px, 800px"
-                  src={heroImage}
+                  data-srcset={heroImageSrcSet}
+                  data-sizes="(max-width: 600px) 480px, 800px"
+                  data-src={heroImage}
                   alt={_.get(this.props, 'section.title')}
+                  className="lazyload"
                 />
               </div>
             }

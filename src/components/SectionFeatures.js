@@ -10,10 +10,11 @@ function ResponsiveImage({image}) {
     const heroImageSrcSet = `${heroImageMobile} 480w, ${heroImage} 800w`;
 
     return <img
-      srcSet={heroImageSrcSet}
-      sizes="(max-width: 600px) 480px, 800px"
-      src={heroImage}
+      data-srcset={heroImageSrcSet}
+      data-sizes="(max-width: 600px) 480px, 800px"
+      data-src={heroImage}
       alt={_.get(image, 'title')}
+      className="lazyload"
     />
 }
 

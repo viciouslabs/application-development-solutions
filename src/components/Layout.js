@@ -1,10 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import _ from 'lodash';
+import 'lazysizes';
 
 import { safePrefix } from '../utils';
 import Header from './Header';
 import Footer from './Footer';
+
+let lazyEventHandled = false;
 
 function MetaDescription(description) {
     if (!description)
@@ -14,6 +17,18 @@ function MetaDescription(description) {
 
 export default function Body(props) {
     const metaDescription = _.get(props, 'pageContext.frontmatter.seo.description');
+
+    if (!lazyEventHandled) {
+        document.addEventListener('lazybeforeunveil', function(e){
+            console.log('333333333333333333');
+            var bg = e.target.getAttribute('data-bg');
+            if(bg){
+                e.target.style.backgroundImage = 'url(' + bg + ')';
+            }
+        });
+        lazyEventHandled = true;
+    }
+
     return (
         <React.Fragment>
             <Helmet>
