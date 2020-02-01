@@ -9,8 +9,8 @@ dataDir: src/data
 pagesDir: src/pages
 pageLayoutKey: template
 metadata:
-  title: Azimuth
-  description: A sleek SaaS theme
+  title: Application Development Solutions
+  description: The most client friendly application development outsourcing service. It is a carefully curated team of experienced experts.
   author: Stackbit
   authorURL: 'https://www.stackbit.com'
   images:
@@ -18,7 +18,7 @@ metadata:
     large: images/demo-1024x768.png
 stackbit_banner:
   show_banner: true
-  name: Azimuth
+  name: Application Development Solutions
   create_url: 'https://app.stackbit.com/create?theme=azimuth'
   github_url: 'https://github.com/stackbithq/stackbit-theme-azimuth'
 models:

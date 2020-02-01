@@ -39,4 +39,6 @@ menus:
     weight: 2
     title: Features
 template: landing
+seo:
+  description: The application development outsourcing service has a carefully curated team of experienced experts. They are flexible, transparent and they guarantee quality.
 ---

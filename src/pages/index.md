@@ -78,4 +78,6 @@ menus:
     weight: 1
     title: Home
 template: landing
+seo:
+  description: The most client friendly application development outsourcing service. It is a carefully curated team of experienced experts.
 ---
