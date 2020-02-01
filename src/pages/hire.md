@@ -1,6 +1,8 @@
 ---
 title: Our Process
-img_path: images/11.jpg
+img_path:
+  480w: images/11.m.webp
+  800w: images/11.webp
 hire_us_title: Hire Us
 menus:
   secondary:

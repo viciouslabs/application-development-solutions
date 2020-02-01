@@ -18,10 +18,13 @@ import celebrationImg from '../../static/images/celebration.webp';
  * TODO: Move all the hard coding out in the md file of hireus.
  */
 export default class Page extends React.Component {
-
   render() {
     const email = _.get(this.props, 'pageContext.frontmatter.email_contact');
     const phone = _.get(this.props, 'pageContext.frontmatter.contact_number');
+
+    const postImage = safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path.800w'));
+    const postImageMobile = safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path.480w'));
+    const postImageSrcSet = `${postImageMobile} 480w, ${postImage} 800w`;
     return (
       <Layout {...this.props}> 
         <div className="outer">
@@ -93,7 +96,12 @@ export default class Page extends React.Component {
               <br />
               {_.get(this.props, 'pageContext.frontmatter.img_path') &&
                 <div className="post-thumbnail">
-                  <img src={safePrefix(_.get(this.props, 'pageContext.frontmatter.img_path'))} alt={_.get(this.props, 'pageContext.frontmatter.title')} />
+                  <img
+                    srcset={postImageSrcSet}
+                    sizes="(max-width: 600px) 480px, 800px"
+                    src={postImage}
+                    alt={_.get(this.props, 'pageContext.frontmatter.title')}
+                  />
                 </div>
               }
               <br />
