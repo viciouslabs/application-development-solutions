@@ -39,7 +39,7 @@ export default function Body(props) {
                 <meta name="google" content="notranslate" />
                 {MetaDescription(metaDescription)}
                 {/* <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" crossorigin /> */}
-                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i" />
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i&display=swap" />
                 {/* <link rel="preload" href={safePrefix('assets/css/main.css')} as="stylesheet" /> */}
                 <link rel="stylesheet" href={safePrefix('assets/css/main.css')} />
                 <link rel="shortcut icon" href={_.get(props, 'pageContext.site.siteMetadata.favicon')} type="image/x-icon" />

@@ -36,7 +36,13 @@ export default class Page extends React.Component {
               </header>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img data-bg={requirementImg} height="90%" width="90%" className="lazyload" />
+                  <Img
+                    data-bg={requirementImg}
+                    height="90%"
+                    width="90%"
+                    className="lazyload"
+                    alt="Requirement"
+                  />
                 </Column>
                 <Column width="50%" float="center">
                   <h4>Requirement Clarification</h4>
@@ -60,7 +66,11 @@ export default class Page extends React.Component {
               </div>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img data-bg={proposalImg} className="lazyload" />
+                  <Img
+                    data-bg={proposalImg}
+                    className="lazyload"
+                    alt="Proposal"
+                  />
                 </Column>
                 <Column width="20%" float="center" type="auxiliary">
                   <div className="step-text-center">3</div>
@@ -72,7 +82,11 @@ export default class Page extends React.Component {
               </div>
               <div className="row green">
                 <Column width="30%" float="right">
-                  <Img data-bg={implementationImg} className="lazyload" />
+                  <Img
+                    data-bg={implementationImg}
+                    className="lazyload"
+                    alt="Implementation"
+                  />
                 </Column>
                 <Column width="50%" float="left" className="padl30">
                   <h4>The Implementation</h4>
@@ -84,7 +98,12 @@ export default class Page extends React.Component {
               </div>
               <div className="row">
                 <Column width="30%" float="left">
-                  <Img data-bg={celebrationImg} height="90%" width="90%" className="lazyload" />
+                  <Img
+                    data-bg={celebrationImg}
+                    height="90%" width="90%"
+                    className="lazyload"
+                    alt="Celebration"
+                  />
                 </Column>
                 <Column width="50%" float="center">
                   <h4>The Celebration</h4>
