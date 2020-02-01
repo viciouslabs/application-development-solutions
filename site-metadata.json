@@ -1,5 +1,6 @@
 {
     "palette": "blue",
+    "favicon": "images/favicon.ico",
     "header": {
         "title": "Application Development Solutions",
         "logo_img": "images/logo-ads.png",
