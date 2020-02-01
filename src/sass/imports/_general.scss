@@ -380,6 +380,10 @@ img {
   border-radius: 3px;
 }
 
+.post-content-centered {
+  text-align: center;
+}
+
 /* Heading underline */
 .underline {
   position: relative;
@@ -414,4 +418,25 @@ img {
 .post-content:after {
   content: "";
   display: table;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  box-sizing: border-box;
+  height: 10px;
+}
+
+.step-text {
+  font-size: 7em;
+}
+
+.step-text-center {
+  text-align: center;
+  font-size: 7em;
+}
+
+.padl30 {
+  padding-left: 30px;
 }
