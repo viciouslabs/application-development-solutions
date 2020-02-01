@@ -1,5 +1,6 @@
 
 $fa-font-display: swap;
+$fa-font-path: "~font-awesome/fonts";
 // Font.
 $font: (
   primary: ("Nunito Sans",sans-serif)
@@ -34,4 +35,3 @@ $palette: (
 @import "imports/footer";
 @import "imports/palettes";
 @import "imports/banner";
-@import "font-awesome/font-awesome.scss"
