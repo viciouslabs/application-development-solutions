@@ -111,7 +111,7 @@ export default class Page extends React.Component {
                   <strong><a href={"tel:" + phone}>{phone}</a></strong>
                 </div>
                 <br /><br /><br /><br />
-                <div class="post-footnote">
+                <div className="post-footnote">
                 Thanks to <a href="https://www.freepik.com/search?page=1&sort=popular&type=vector">freepik</a> for the cool illustrations.
                 </div>
               </div>

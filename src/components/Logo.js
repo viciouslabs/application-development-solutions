@@ -1,7 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
-
-import {Link, safePrefix} from '../utils';
 
 export default function Logo() {
     return <div style={{ lineHeight: '1em' }}>
