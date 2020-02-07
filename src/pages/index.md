@@ -24,7 +24,7 @@ sections:
           480w: images/feature1.m.webp
           800w: images/feature1.webp
         content: >-
-          Mobile applications are incomplete with micro-interactions. Collaborate with us to create the best experience for the user. We like our apps to be functionally accurate and aesthetically sharp.
+          Mobile applications are incomplete with micro-interactions. Collaborate with us on creating the best experience for the user. We like our apps to be functionally accurate and aesthetically sharp.
         actions:
           - label: Know More
             url: /features
@@ -33,7 +33,7 @@ sections:
           480w: images/feature3.m.webp
           800w: images/feature3.webp
         content: >-
-          We don't just create web applications, we make it extensive by developing a design system. Creating standalone, testable and well documented components is our speciality.
+          We don't just create web applications, we make them extensive by developing a design system. Creating standalone, testable and well documented components is our speciality.
         actions:
           - label: Know More
             url: /features

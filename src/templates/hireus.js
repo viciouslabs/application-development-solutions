@@ -58,7 +58,7 @@ export default class Page extends React.Component {
                 </Column>
                 <Column width="50%" float="left" className="padl30">
                   <h4>The Questionnaire</h4>
-                  <div>We build a solid understanding using documentation or our exploration. We might have some questions for you.</div>
+                  <div>We build a solid understanding using documentation or self-exploration. We might have some questions for you.</div>
                 </Column>
                 <Column width="20%" float="center" type="auxiliary">
                   <div className="step-text">2</div>
